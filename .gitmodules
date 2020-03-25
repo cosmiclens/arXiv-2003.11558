@@ -1,0 +1,3 @@
+[submodule "cosmosis/modules/cosmosis-efficiency-module"]
+	path = cosmosis/modules/efficiency
+	url = https://github.com/cosmiclens/cosmosis-efficiency-module.git

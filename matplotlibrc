@@ -1,0 +1,8 @@
+font.family         :   serif
+text.usetex         :   True
+figure.figsize      :   4.0, 4.0
+figure.dpi          :   100
+savefig.bbox        :   tight
+axes.titlesize      :   11
+axes.titlepad       :   7
+axes.prop_cycle     :   cycler('color', ['000000', 'd55e00', '009e73', '0072b2', 'cc79a7', 'e69f00'])
