@@ -8,7 +8,7 @@ Source Distributions of Cosmic Shear Surveys in Efficiency Space
 > when cloning, or the appropriate git-submodule commands after cloning.
 
 This repository contains all files that were used to produce our paper
-[`arXiv:2003.xxxxx`](https://arxiv.org/abs/2003.xxxxx). These are split into
+[`arXiv:2003.11558`](https://arxiv.org/abs/2003.11558). These are split into
 
 - a Jupyter notebook file ``notebook.ipynb`` that contains computations and
   plots with annotations, and
