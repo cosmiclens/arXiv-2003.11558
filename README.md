@@ -15,8 +15,8 @@ This repository contains all files that were used to produce our paper
 - a number of ``CosmoSIS v1.6`` configuration files that produce posteriors for
   the various analyses we perform.
 
-> **Notice:** The notebook has not been fully commented yet, so it might be
-> hard to follow later sections. We will remedy this as soon as possible.
+> **Notice:** The notebook has not been fully commented, so it might be hard to
+> follow later sections.
 
 We are working on the DES Y1 version of the Buzzard catalogue. To follow along,
 you will need _either_
