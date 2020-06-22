@@ -5,12 +5,9 @@ COSMOSIS ?= cosmosis
 all:
 	jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=None notebook.ipynb
 
-chains: chains/intr.txt chains/phot.txt chains/para.txt
+chains: chains/intr.txt chains/para.txt
 
 chains/intr.txt: cosmosis/analyse-intr.ini cosmosis/params.ini cosmosis/values.ini data/number_density_params.ini data/simulated.fits
-	$(COSMOSIS) $<
-
-chains/phot.txt: cosmosis/analyse-phot.ini cosmosis/params.ini cosmosis/values.ini data/number_density_params.ini data/simulated.fits
 	$(COSMOSIS) $<
 
 chains/para.txt: cosmosis/analyse-para.ini cosmosis/params.ini cosmosis/values.ini data/number_density_params.ini data/simulated.fits
